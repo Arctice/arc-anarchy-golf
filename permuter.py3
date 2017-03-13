@@ -1,2 +1,2 @@
-import itertools as a
-for _ in a.permutations(input()):print(''.join(_))
+from itertools import*
+for _ in permutations(input()):print(''.join(_))
